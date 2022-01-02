@@ -1,123 +1,171 @@
-@import "";
+@import url("https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&display=swap");
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+html,
 body {
-    font-family: "Roboto", sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+body {
     background-color: #f5f7fa;
+    font-family: "Spline Sans", sans-serif;
 }
-
-.about-me-profession {
-    font-size: 14px;
-    font-weight: 700;
-    color: #000;
+body li {
+    list-style: none;
 }
-.list-text-main-content a:hover {
-    color: #000;
+body._lock {
+    overflow: hidden;
 }
-.main-section {
+.wrapper {
+    width: 100%;
     display: flex;
-    flex-direction: row-reverse;
-    background: #f5f7fa;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.main-content-section {
-    margin: 40px 50px;
+@media (min-width: 762px) {
+    .wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }   
+}
+.container {
+    margin: 0px;
+    padding: 0px;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-me {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+}
+.about-me__title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-me__title h1,
+h2,
+p {
+    padding: 10px 20px;
+}
+.projects {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+}
+.projects__list h3 {
+    text-align: start;
+    padding: 20px 50px;
+}
+.projects__list {
+    padding: 50px 0;
+}
+.projects__list li {
+    text-align: start;
+    padding: 10px 5px;
+}
+.projects-list__item {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.projects-list__item a {
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid;
+}
+.projects-list__item span {
+    color: #000;
+    font-size: 14px;
+    padding-left: 50px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+@media (max-width: )
+.work {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+.work__item h5, p {
+    padding: 10px 20px;
+} 
+.education__section h4,
+h5,
+p {
+    padding: 10px 20px;
 }
 
-.aboute-me-name {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    color: #595959;
-}
-.brackets {
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 24px;
-    color: #000000;
-}
-.list-text-main-content {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    color: #595959;
-}
-.institute {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 20px;
-    color: #fb6d3a;
-}
-.name-company {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 20px;
-    color: #fb6d3a;
-}
 
-/* sidebar section */
-.sidebar-section {
-    background: #1e2939;
-    color: #f5f7fa;
-    margin: 20px 40px 20px 40px;
-    width: 450px;
+
+
+
+
+.sidebar {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+    padding: 50px 0;
 }
-.photo {
-    width: 93%;
-    height: 30%;
-    margin: 40px 0 20px 0;
+.sidebar li {
+    list-style: circle;
 }
-.content-sidebar {
-    margin: 50px 0 0 20px;
-}
-.contakt-content a {
+.sidebar a {
     text-decoration: none;
     color: #fff;
-    padding-right: 5px;
+    padding: 10px 5px;
 }
-.contakt-content a:hover {
-    color: rgb(234, 234, 234);
-}
-.contakt-content i {
-    color: #fb6d3a;
-    padding-left: 10px;
-}
-.sidebar-title {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 27px;
+.contakt__item a {
     color: #fff;
-    margin-bottom: 10px;
+    padding: 10px 5px;
 }
-
-.contact-title-type {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 24px;
-    color: white;
-    margin-right: 5px;
+.contakt__item span {
+    color: #fff;
+    padding: 10px 5px;
 }
-
-.list-for-skills {
-    padding: 0 0 0 18px;
-    color: #fb6d3a;
-}
-
-.list-text {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    color: white;
+.photo__resume img {
+    width: 150px;
 }
 .fab.fa-whatsapp {
-    color: #7FFFD4;
+    color: #7fffd4;
     padding: 5px;
 }
 .fab.fa-telegram {
@@ -125,9 +173,6 @@ body {
     padding: 5px;
 }
 .fab.fa-viber {
-    color: #8A2BE2;
+    color: #8a2be2;
     padding: 5px;
-}
-.contakt-content-e span {
-    padding-left: 5px;
 }
