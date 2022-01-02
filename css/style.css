@@ -1,0 +1,133 @@
+@import "";
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f5f7fa;
+}
+
+.about-me-profession {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+}
+.list-text-main-content a:hover {
+    color: #000;
+}
+.main-section {
+    display: flex;
+    flex-direction: row-reverse;
+    background: #f5f7fa;
+}
+.main-content-section {
+    margin: 40px 50px;
+}
+
+.aboute-me-name {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.brackets {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+.list-text-main-content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.institute {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fb6d3a;
+}
+.name-company {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fb6d3a;
+}
+
+/* sidebar section */
+.sidebar-section {
+    background: #1e2939;
+    color: #f5f7fa;
+    margin: 20px 40px 20px 40px;
+    width: 450px;
+}
+.photo {
+    width: 93%;
+    height: 30%;
+    margin: 40px 0 20px 0;
+}
+.content-sidebar {
+    margin: 50px 0 0 20px;
+}
+.contakt-content a {
+    text-decoration: none;
+    color: #fff;
+    padding-right: 5px;
+}
+.contakt-content a:hover {
+    color: rgb(234, 234, 234);
+}
+.contakt-content i {
+    color: #fb6d3a;
+    padding-left: 10px;
+}
+.sidebar-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.contact-title-type {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+    margin-right: 5px;
+}
+
+.list-for-skills {
+    padding: 0 0 0 18px;
+    color: #fb6d3a;
+}
+
+.list-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+}
+.fab.fa-whatsapp {
+    color: #7FFFD4;
+    padding: 5px;
+}
+.fab.fa-telegram {
+    color: white;
+    padding: 5px;
+}
+.fab.fa-viber {
+    color: #8A2BE2;
+    padding: 5px;
+}
+.contakt-content-e span {
+    padding-left: 5px;
+}
