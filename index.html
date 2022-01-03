@@ -15,7 +15,102 @@
 <body>
     <div class="wrapper">
         <div class="container">
-            <!-- About me section -->
+            <div class="sidebar">
+                <div class="photo__resume">
+                    <img src="img/my-photo.jpeg" alt="my-photo">
+                </div>
+                <div class="contact">
+                    <h3 class="contact__title">Contacts</h3>
+                    <div class="contact__item">
+                        <a href="tel:+380992050007">+380992050007</a>
+                        <div>
+                            <i class="fab fa-whatsapp"></i>
+                            <i class="fab fa-telegram"></i>
+                            <i class="fab fa-viber"></i>
+                        </div>
+                        <a href="mailto:andrey.rise@gmail.com">andrey.rise@gmail.com</a>
+                        <a href="https://github.com/andreyrise">GitHub page</a>
+                    </div>
+                </div>
+                <div class="contact__item">
+                    <h3 class="skills__title">Tech Skills</h3>
+                    <div class="skills__list">
+                        <ul class="list-for-skills">
+                            <div class="skills-list__item">
+                                <div class="dots"></div>
+                                <li><span>HTML5</span></li>
+                            </div>
+                            <div class="skills-list__item">
+                                <div class="dots"></div>
+                                <li><span>CSS3</span></li>
+                            </div>
+                            <div class="skills-list__item">
+                                <div class="dots"></div>
+                                <li><span>Bootstrap</span></li>
+                            </div>
+                            <div class="skills-list__item">
+                                <div class="dots"></div>
+                                <li><span>JavaScript</span></li>
+                            </div>
+                            <div class="skills-list__item">
+                                <div class="dots"></div>
+                                <li><span>PHP</span></li>
+                            </div>
+                            <div class="skills-list__item">
+                                <div class="dots"></div>
+                                <li><span>jQuery</span></li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contact__item">
+                    <h3 class="skills__title">Soft Skills</h3>
+                    <div class="skills__list">
+                        <ul>
+                            <div class="skills-list__item">
+                                <div class="dots"></div>
+                                <li><span>Scrum</span></li>
+                            </div>
+                            <div class="skills-list__item">
+                                <div class="dots"></div>
+                                <li><span>Agile</span></li>
+                            </div>
+                            <div class="skills-list__item">
+                                <div class="dots"></div>
+                                <li><span>GTD</span></li>
+                            </div>
+                            <div class="skills-list__item">
+                                <div class="dots"></div>
+                                <li><span>Teamwork</span></li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contact__item">
+                    <h3 class="skills__title">Languages Spoken</h3>
+                    <div class="skills__list">
+                        <ul>
+                            <div class="skills-list__item">
+                                <div class="dots"></div>
+                                <li><span>English</span></li>
+                                <span>"B1 (Eilts: 4.0)"</span>
+                            </div>
+                            <div class="skills-list__item">
+                                <div class="dots"></div>
+                                <li><span>Ukrainian</span></li>
+                                <span>"native speaker"</span>
+                            </div>
+                            <div class="skills-list__item">
+                                <div class="dots"></div>
+                                <li><span>Russian</span></li>
+                                <span>"native speaker"</span>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
             <div class="about-me">
                 <div class="about-me__title">
                     <h2>Front-End Developer</h2>
@@ -23,8 +118,8 @@
                     <p>I quickly think. I quickly study. I work in team.</p>
                 </div>
                 <div class="projects">
-                    <ol class="projects__list">
-                        <h3>Projects</h3>
+                    <h3>Projects</h3>
+                    <ul class="projects__list">
                         <li class="projects-list__item">
                             <a href="https://www.ka-webdev.space/">www.ka-webdev.space</a>
                             <span>"My resume"</span>
@@ -42,17 +137,17 @@
                             <span>"Music Device Shop template"</span>
                         </li>
                         <li class="projects-list__item">
-                            <a class="" href="https://andreyrise.github.io/atelier-marusia.store/">www.atelier-marusia.store</a>
+                            <a class=""
+                                href="https://andreyrise.github.io/atelier-marusia.store/">www.atelier-marusia.store</a>
                             <span>"Atelier-Marusia - project in progress"</span>
                         </li>
-                    </ol>
+                    </ul>
                 </div>
                 <div class="work">
                     <h3>Work experience</h3>
                     <div class="work__item">
                         <h5>Front-End developer <span>Freelance</span></h5>
                         <p>August 2021 - up to now | Country</p>
-
                         <ul class="">
                             <li>Learning web programming languages HTML, CSS, JavaScript, PHP, jQuery.</li>
                             <li>Website development, website design development. Website functionality creation.</li>
@@ -61,8 +156,7 @@
                     <div class="work__item">
                         <h5>Manager <span>Desal LLC</span></h5>
                         <p>October 2009 - January 2020 | Ukraine</p>
-
-                        <ul class="">
+                        <ul class="work__item-list">
                             <li>Sale of goods.</li>
                             <li>Expansion of the assortment.</li>
                         </ul>
@@ -70,78 +164,26 @@
                     <div class="work__item">
                         <h5>Manager <span>Granit Holding LLC</span></h5>
                         <p>October 2008 - October 2009 | Ukraine</p>
-                        <ul class="">
+                        <ul class="work__item-list">
                             <li>Shift supervisor of operational accounting.</li>
                             <li>Accounting, cash desk.</li>
                             <li>Personnel, sale of goods.</li>
                         </ul>
                     </div>
                 </div>
-                <div class="education__section">
-                    <h4>Education</h4>
-                    <h5>Chernivtsi Institute of Trade and Economics of Kyiv National University of Trade
-                        and Economics</h5>
+                <div class="education">
+                    <h3>Education</h3>
+                    <h4>Chernivtsi Institute of Trade and Economics</h4>
+                    <h4>of Kyiv National University of Trade
+                        and Economics</h4>
                     <h5>Marketing</h5>
                     <p>September 2014 - Jule 2018 | Ukraine</p>
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="sidebar">
-                <div class="photo__resume">
-                    <img src="img/my-photo.jpeg" alt="my-photo">
-                </div>
-                <!-- Contacts section-->
-                <div class="contact">
-                    <h3 class="contact__title">Contacts</h3>
-                    <div class="contakt__item">
-                        <span class="contact-title-type">C:</span>
-                        <a href="tel:+380992050007">+380992050007
-                            <i class="fab fa-whatsapp"></i>
-                            <i class="fab fa-telegram"></i>
-                            <i class="fab fa-viber"></i>
-                        </a>
-                    </div>
-                    <div class="contakt__item">
-                        <span class="contact-title-type">E:</span>
-                        <a href="mailto:andrey.rise@gmail.com">andrey.rise@gmail.com</a>
-                    </div>
-                    <div class="contakt__item">
-                        <span class="contact-title-type">E:</span>
-                        <a href="https://github.com/andreyrise">GitHub page</a>
-                    </div>
-                </div>
-                <!-- Tech Skills section-->
-                <div class="contact__item">
-                    <h3 class="skills__title">Tech Skills</h3>
-                    <div class="skills__list">
-                        <ul class="list-for-skills">
-                            <li><span>HTML5</span></li>
-                            <li><span>CSS3</span></li>
-                            <li><span>Bootstrap</span></li>
-                            <li><span>JavaScript</span></li>
-                            <li><span>PHP</span></li>
-                            <li><span>jQuery</span></li>
-                        </ul>
-                    </div>
-                </div>
+    </div>
 
-                <!-- Soft Skills section-->
-                <div class="content-sidebar">
-                    <h3 class="sidebar-title">Soft Skills</h3>
-                    <div>
-                        <ul class="list-for-skills">
-                            <li><span class="list-text">Scrum</span></li>
-                            <li><span class="list-text">Agile</span></li>
-                            <li><span class="list-text">GTD</span></li>
-                            <li><span class="list-text">Teamwork</span></li>
-                        </ul>
-                    </div>
-                </div>
-                </d>
-            </div>
-        </div>
-        <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
